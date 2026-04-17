@@ -1,4 +1,4 @@
-# neurocis — 1:1 AI Training Website
+# neurocis AI — 1:1 AI Training Website
 
 A dark-themed, static website for an AI consultancy focused on personalized 1:1 AI training.
 
