@@ -1282,13 +1282,12 @@ img {
     line-height: 1.5;
 }
 
-
 .footer-sponsor a {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    justify-content: center;
     transition: opacity 0.3s ease, transform 0.3s ease;
     flex-shrink: 0;
+    height: 35px;
 }
 
 .footer-sponsor a:hover {
@@ -1297,7 +1296,7 @@ img {
 }
 
 .footer-sponsor-logo {
-    height: 29px;
+    height: 35px;
     width: auto;
     display: block;
 }
@@ -1309,7 +1308,11 @@ img {
         gap: 10px;
     }
 
+    .footer-sponsor a {
+        height: 28px;
+    }
+
     .footer-sponsor-logo {
-        height: 23px;
+        height: 28px;
     }
 }
