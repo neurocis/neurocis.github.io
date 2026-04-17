@@ -1264,23 +1264,29 @@ img {
 
 /* ===== Footer Sponsor Logo ===== */
 .footer-sponsor {
+    display: flex;
+    align-items: center;
+    gap: 12px;
     margin-top: 24px;
     padding-top: 24px;
     border-top: 1px solid var(--card-border);
 }
 
 .footer-sponsor-text {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     color: var(--text-muted);
     font-weight: 600;
-    margin-bottom: 12px;
+    white-space: nowrap;
+    margin: 0;
 }
 
 .footer-sponsor a {
-    display: inline-block;
+    display: flex;
+    align-items: center;
     transition: opacity 0.3s ease, transform 0.3s ease;
+    flex-shrink: 0;
 }
 
 .footer-sponsor a:hover {
@@ -1289,13 +1295,19 @@ img {
 }
 
 .footer-sponsor-logo {
-    height: 40px;
+    height: 20px;
     width: auto;
     display: block;
 }
 
 @media (max-width: 768px) {
+    .footer-sponsor {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    
     .footer-sponsor-logo {
-        height: 32px;
+        height: 16px;
     }
 }
