@@ -1222,3 +1222,42 @@ img {
         grid-template-columns: 1fr;
     }
 }
+
+/* ===== Careers CTA ===== */
+.careers {
+    padding: 120px 0;
+    background: linear-gradient(180deg, rgba(108, 99, 255, 0.05), transparent);
+}
+
+.careers-content {
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.careers h2 {
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin-bottom: 20px;
+    letter-spacing: -0.02em;
+}
+
+.careers p {
+    font-size: 1.05rem;
+    color: var(--text-muted);
+    line-height: 1.8;
+    margin-bottom: 36px;
+}
+
+.careers .btn {
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+    .careers {
+        padding: 80px 0;
+    }
+    
+    .careers p {
+        font-size: 1rem;
+    }
+}
