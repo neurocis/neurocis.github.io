@@ -1261,3 +1261,41 @@ img {
         font-size: 1rem;
     }
 }
+
+/* ===== Footer Sponsor Logo ===== */
+.footer-sponsor {
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid var(--card-border);
+}
+
+.footer-sponsor-text {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-muted);
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.footer-sponsor a {
+    display: inline-block;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.footer-sponsor a:hover {
+    opacity: 0.8;
+    transform: translateY(-2px);
+}
+
+.footer-sponsor-logo {
+    height: 40px;
+    width: auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .footer-sponsor-logo {
+        height: 32px;
+    }
+}
